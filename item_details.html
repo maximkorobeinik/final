@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/item_details.css" />
+    <title>Document</title>
+</head>
+
+<body></body>
+<header>
+    <div class="header_nav">
+        <div class="header_logo"><a class="logo_link" href="index.html">Фетч</a></div>
+        <div class="header_links">
+            <li><a class="nav_link" href="">Одежда</a></li>
+            <li><a class="nav_link" href="shoes.html">Обувь</a></li>
+            <li><a class="nav_link" href="">Аксессуары</a></li>
+            <li><a class="nav_link" href="">Блог</a></li>
+            <li><a class="nav_link" href="">Магазин</a></li>
+            <li><a class="nav_link" href="">Доставка и оплата</a></li>
+        </div>
+        <div class="header_basket"><a id="basket" href="submit_order.html"><svg class="basketIcon" width="48" height="44" viewBox="0 0 48 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M48 9.91735L9.19149 5.45455L6.6383 0.495868L0.510638 0L0 1.98347L4.08511 3.47107L10.7234 27.2727L13.2766 36.6942H44.4255L44.9362 33.719H14.8085L13.2766 27.2727L46.4681 22.314L48 9.91735Z" fill="currentColor" />
+                    <path d="M19.9149 40.6612C19.9149 42.3043 18.5432 43.6364 16.8511 43.6364C15.159 43.6364 13.7872 42.3043 13.7872 40.6612C13.7872 39.018 15.159 37.6859 16.8511 37.6859C18.5432 37.6859 19.9149 39.018 19.9149 40.6612Z" fill="currentColor" />
+                    <path d="M41.3617 40.6612C41.3617 42.3043 39.99 43.6364 38.2979 43.6364C36.6058 43.6364 35.234 42.3043 35.234 40.6612C35.234 39.018 36.6058 37.6859 38.2979 37.6859C39.99 37.6859 41.3617 39.018 41.3617 40.6612Z" fill="currentColor" />
+                </svg>
+                <div class="count_round"></div>
+            </a><a id="complete_basket" href="submit_order.html">Оформить заказ </a></div>
+    </div>
+</header>
+<section class="item_details">
+    <div class="details_container">
+        <div class="detail_slider">
+            <div class="mob_slider_desc">
+                <div class="details_slider_main">
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_big_1.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_big_2.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_big_3.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_big_4.png" alt="" /></div>
+                </div>
+                <div class="details_slider_small">
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_small_1.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_small_2.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_small_3.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_small_4.png" alt="" /></div>
+                </div>
+            </div>
+            <div class="desk_slider_desc">
+                <div class="details_slider_main">
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_big_1.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_big_2.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_big_3.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_big_4.png" alt="" /></div>
+                </div>
+                <div class="details_slider_small">
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_small_1.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_small_2.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_small_3.png" alt="" /></div>
+                    <div class="slide"><img src="assets/img/margiela_desc_prev_small_4.png" alt="" /></div>
+                </div>
+            </div>
+        </div>
+        <div class="desc_for_an_item">
+            <h6>maison margiela fusion low sneakers</h6>
+            <p>Кроссовки</p>
+        </div>
+        <div class="buy_now">
+            <div class="colors">
+                <p class="color">Цвет</p>
+                <div class="buttons_color"><input id="radio_color1" type="radio" value="whitepink" name="color" /><label for="radio_color1">Белый с розовым </label><input id="radio_color2" type="radio" value="whitegreen" name="color" /><label for="radio_color2">Белый с зелёным</label></div>
+            </div>
+            <div class="sizes">
+                <p class="sizes">Размер US</p>
+                <div class="buttons_sizes"><input id="radio_1" type="radio" value="6" name="size" /><label for="radio_1">6</label><input id="radio_2" type="radio" value="6.5" name="size" /><label for="radio_2">6.5</label><input id="radio_3" type="radio" value="7" name="size" /><label for="radio_3">7 </label><input id="radio_4" type="radio" value="9" name="size" /><label for="radio_4">9</label></div>
+            </div><a class="sizes_table" href="#popup">Таблица размеров</a><br />
+            <button class="buy_btn" value="shoe_margiela_1">Купить, 92 000 ₽</button>
+        </div>
+        <div class="item_description">
+            <div class="item_properties">
+                <div class="item_specs">
+                    <div class="materials_of_item"><b>Материал</b>
+                        <p>Кожа, текстиль</p>
+                    </div>
+                    <div class="country_if_origin"><b>Страна производитель</b>
+                        <p>Италия</p>
+                    </div>
+                </div>
+                <div class="specification_of_item"><b>Описание</b>
+                    <p>Деконструктивный и&nbsp;авангардный дизайн с&nbsp;уникальными концепциями и&nbsp;нетрадиционным мастерством.</p>
+                    <p>В&nbsp;качестве материала используются два вида кожи. Верх дополнен деталями из&nbsp;сетчатого материала и&nbsp;текстиля.</p>
+                    <p>Грубые и&nbsp;многослойные кроссовки показывают отличие от&nbsp;традиционного аккуратного стиля создания обуви. Они оснащены раскрашенной вручную резиновой подошвой с&nbsp;брызгами и потеками.</p>
+                    <p>Оригинальная слегка асимметричкая система шнуровки и&nbsp;фирменный стежок на&nbsp;заднике завершают уникальный внешний вид.</p>
+                </div>
+                <div class="details_of_item"><b>Детали</b>
+                    <p>&mdash;&nbsp;Два вида кожи</p>
+                    <p>&mdash;&nbsp;Детали из&nbsp;текстиля</p>
+                    <p>&mdash;&nbsp;Неординарная шнуровка</p>
+                    <p>&mdash;&nbsp;Перфорация на&nbsp;мыске</p>
+                    <p>&mdash;&nbsp;Стежок на&nbsp;заднике</p>
+                    <p>&mdash;&nbsp;Фигурная резиновая подошва</p>
+                    <p>&mdash;&nbsp;Цепкая подметка</p>
+                    <p>&mdash;&nbsp;Окрашивание с&nbsp;брызгами и&nbsp; потеками</p>
+                    <p>&mdash;&nbsp;Пестрая расцветка</p>
+                </div>
+            </div>
+        </div>
+        <div class="might_be_interesting">
+            <div class="might_be_interesting_mobile">
+                <div class="interesting_header">
+                    <h6>Вам может быть интересно</h6>
+                </div>
+                <div class="interesting_slider">
+                    <div class="interesting_slider_mob">
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_4.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_10.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_17.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_2.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="might_be_interesting_desktop">
+                <div class="interesting_header">
+                    <h6>Вам может быть интересно</h6>
+                </div>
+                <div class="interesting_slider">
+                    <div class="interesting_slider_desk">
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_4.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_10.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_17.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_2.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_4.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_10.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_17.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                        <div class="interest_slide_item"><img src="assets/img/desk_sneaker_2.jpg" alt="" /><a href="">Maison Margiela Fusion Low Sneakers</a>
+                            <p class="title">Кроссовки</p>
+                            <div class="price">
+                                <p>92&nbsp;000&nbsp;&#x20bd</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="mfp-hide" id="popup">
+    <div class="table">
+        <div class="table_header">
+            <h6>Таблица размеров</h6>
+        </div>
+        <div class="table_items">
+            <div class="us">
+                <div class="table_item">
+                    <p class="cell_header">US</p>
+                </div>
+                <div class="table_item">
+                    <p>4</p>
+                </div>
+                <div class="table_item">
+                    <p>4.5</p>
+                </div>
+                <div class="table_item">
+                    <p>5</p>
+                </div>
+                <div class="table_item">
+                    <p>5.5</p>
+                </div>
+                <div class="table_item">
+                    <p>6</p>
+                </div>
+                <div class="table_item">
+                    <p>6.5</p>
+                </div>
+                <div class="table_item">
+                    <p>7</p>
+                </div>
+                <div class="table_item">
+                    <p>7.5</p>
+                </div>
+            </div>
+            <div class="uk">
+                <div class="table_item">
+                    <p class="cell_header">UK</p>
+                </div>
+                <div class="table_item">
+                    <p>3.5</p>
+                </div>
+                <div class="table_item">
+                    <p>4</p>
+                </div>
+                <div class="table_item">
+                    <p>4.5</p>
+                </div>
+                <div class="table_item">
+                    <p>6</p>
+                </div>
+                <div class="table_item">
+                    <p>5.5</p>
+                </div>
+                <div class="table_item">
+                    <p>6</p>
+                </div>
+                <div class="table_item">
+                    <p>6.5</p>
+                </div>
+                <div class="table_item">
+                    <p>7</p>
+                </div>
+            </div>
+            <div class="eu">
+                <div class="table_item">
+                    <p class="cell_header">EU</p>
+                </div>
+                <div class="table_item">
+                    <p>36</p>
+                </div>
+                <div class="table_item">
+                    <p>37</p>
+                </div>
+                <div class="table_item">
+                    <p>38</p>
+                </div>
+                <div class="table_item">
+                    <p>39</p>
+                </div>
+                <div class="table_item">
+                    <p>40</p>
+                </div>
+                <div class="table_item">
+                    <p>41</p>
+                </div>
+                <div class="table_item">
+                    <p>42</p>
+                </div>
+                <div class="table_item">
+                    <p>43</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="scripts/script.js"></script>
+<footer>
+    <div class="footer_container">
+        <div class="fetch_footer">
+            <div class="about_us">
+                <h6 class="fetch">Фетч</h6><a class="fetch_link" href="about_us.html">Магазин</a><a class="fetch_link" href="">Блог</a><a class="fetch_link" href="">Доставка и оплата</a>
+            </div>
+            <div class="contact_us"><a class="fetch_link_addr" href="mailto:shop@fetch.ru">shop@fetch.ru</a><a class="fetch_link_tel" href="88008121142">8 800 912-11-42</a>
+                <p class="fetch_tel_add">Звонок бесплатный</p>
+            </div>
+        </div>
+        <div class="mens_footer"><a class="formens" href="">Для мужчин</a><a class="mens_link" href="">Верхняя одежда</a><a class="mens_link" href="">Рубашки и поло</a><a class="mens_link" href="">Трикотаж</a><a class="mens_link" href="">Брюки и джинсы</a><a class="mens_link" href="">Бельё и носки</a></div>
+        <div class="womans_footer"><a class="forwomans" href="">Для женщин</a><a class="womans_link" href="">Верхняя одежда</a><a class="womans_link" href="">Рубашки и поло</a><a class="womans_link" href="">Трикотаж</a><a class="womans_link" href="">Платья и юбки</a><a class="womans_link" href="">Бельё и носки</a></div>
+        <div class="shoes_footer"><a class="shoes" href="">Обувь</a><a class="shoes_link" href="">Кроссовки и кеды</a><a class="shoes_link" href="">Ботинки</a></div>
+        <div class="accessories_footer"><a class="accessories" href="">Аксессуары</a><a class="accessories_link" href="">Сумки и рюкзаки</a><a class="accessories_link" href="">Часы</a><a class="accessories_link" href="">Бижутерия</a><a class="accessories_link" href="">Средства для ухода</a></div>
+        <div class="discount_footer"><a class="discount" href="">Скидки</a><a class="discount_link" href="">Летняя распродажа</a><a class="discount_link" href="">Коллекция 2018</a></div>
+        <div class="footer_info">
+            <p class="info">&copy Фэтч-команда, 2019</p><a class="info" href="#popup_rules">Правила обработки персональных данных</a><a class="info" href="">Разработка и поддержка сайта</a>
+        </div>
+    </div>
+</footer>
+<div class="mfp-hide" id="popup_rules">
+    <div class="popup_content">
+        <h6 class="popup_header">Правила обработки персональных данных</h6>
+        <p class="popup_text">Предоставляя свои персональные данные Пользователь даёт согласие на&nbsp;обработку, хранение и&nbsp;использование своих персональных данных на&nbsp;основании ФЗ &#8470;&nbsp;152-ФЗ &laquo;О&nbsp;персональных данных&raquo;<br /> от&nbsp;27.07.2006&nbsp;г.&nbsp;в&nbsp;следующих целях:</p>
+        <p class="popup_spec">Осуществление клиентской поддержки; <br /> Получения Пользователем информации о&nbsp;маркетинговых событиях; <br /> Проведение аудита и&nbsp;внутренних исследований с&nbsp;целью<br />повышения качества предоставляемых услуг</p>
+        <p class="popup_text">Под персональными данными подразумевается любая информация личного характера, позволяющая установить личность Пользвателя, такая как;</p>
+        <p class="popup_spec">Фамилия, имя и&nbsp;отчество</p>
+        <p class="popup_text">Персональные данные Пользователей хранятся исключительно на&nbsp;электронных носителях и&nbsp;обрабатываются с&nbsp;использованием автоматизированных систем, за&nbsp;исключением случаев, когда неавтоматизированная обработка персональных данных необходима в&nbsp;связи с&nbsp;исполнением требований законодательства.</p>
+        <p class="popup_text">Компания обязуется не&nbsp;передавать полученные персональные данные третьим лицам, за&nbsp;исключением следуюзих случаев:</p>
+        <p class="popup_text">По&nbsp;запросам уполномоченных орагнов госудраственной власти&nbsp;РФ только по&nbsp;основаниям и&nbsp;в&nbsp;поряке, установленным законодательством&nbsp;РФ</p>
+        <p class="popup_text">Компания оставляет за&nbsp;собой право вносить изменения в&nbsp;одностороннем порядке в&nbsp;настоящие правила, при условии, что изменения не&nbsp;противоречат действующему закоодательсву РФ. Изменения условий настоящих правил вступают в&nbsp;силу после их&nbsp;публикации на&nbsp;Сайте.</p>
+    </div>
+</div>
+<script src="scripts/jquery-3.5.1.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/slides.js"></script>
+
+</html>
