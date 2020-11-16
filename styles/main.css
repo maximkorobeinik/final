@@ -2037,5 +2037,6 @@ footer .footer_container .footer_info a.info:hover {
     margin: 0 auto;
     background: #fff;
     z-index: 9999;
-    position: relative
+    position: relative;
+    overflow-y: scroll
 }
